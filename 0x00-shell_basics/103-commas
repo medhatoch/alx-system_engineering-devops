@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -p1 | grep -v "/\.$" ; ls -p1d . ..) | sort -d | tr '\n' ',' | sed 's/,$/\n/'
+ls -mpa
